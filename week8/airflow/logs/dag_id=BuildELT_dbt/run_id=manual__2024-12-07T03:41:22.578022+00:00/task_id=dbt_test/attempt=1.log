@@ -1,0 +1,31 @@
+[2024-12-07T03:41:53.751+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-07T03:41:53.787+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_test manual__2024-12-07T03:41:22.578022+00:00 [queued]>
+[2024-12-07T03:41:53.800+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_test manual__2024-12-07T03:41:22.578022+00:00 [queued]>
+[2024-12-07T03:41:53.801+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-12-07T03:41:53.815+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_test> on 2024-12-07 03:41:22.578022+00:00
+[2024-12-07T03:41:53.832+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=9233) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-07T03:41:53.836+0000] {standard_task_runner.py:63} INFO - Started process 9235 to run task
+[2024-12-07T03:41:53.835+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_test', 'manual__2024-12-07T03:41:22.578022+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmp__rin264']
+[2024-12-07T03:41:53.843+0000] {standard_task_runner.py:91} INFO - Job 64: Subtask dbt_test
+[2024-12-07T03:41:53.901+0000] {task_command.py:426} INFO - Running <TaskInstance: BuildELT_dbt.dbt_test manual__2024-12-07T03:41:22.578022+00:00 [running]> on host 1ed1f547130e
+[2024-12-07T03:41:54.002+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2024-12-07T03:41:22.578022+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-07T03:41:22.578022+00:00'
+[2024-12-07T03:41:54.013+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-07T03:41:54.039+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-07T03:41:54.041+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt test --profiles-dir /opt/***/final_dbt --project-dir /opt/***/final_dbt']
+[2024-12-07T03:41:54.065+0000] {subprocess.py:86} INFO - Output:
+[2024-12-07T03:41:56.181+0000] {subprocess.py:93} INFO - [0m03:41:56  Running with dbt=1.8.7
+[2024-12-07T03:41:57.427+0000] {subprocess.py:93} INFO - [0m03:41:57  Registered adapter: snowflake=1.8.4
+[2024-12-07T03:41:57.784+0000] {subprocess.py:93} INFO - [0m03:41:57  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2024-12-07T03:41:57.785+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2024-12-07T03:41:57.786+0000] {subprocess.py:93} INFO - - models.final_dbt.example
+[2024-12-07T03:41:57.941+0000] {subprocess.py:93} INFO - [0m03:41:57  Found 2 snapshots, 3 models, 2 sources, 459 macros
+[2024-12-07T03:41:57.945+0000] {subprocess.py:93} INFO - [0m03:41:57
+[2024-12-07T03:41:57.946+0000] {subprocess.py:93} INFO - [0m03:41:57  Nothing to do. Try checking your model configs and model specification args
+[2024-12-07T03:41:58.999+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-12-07T03:41:59.007+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-07T03:41:59.049+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=BuildELT_dbt, task_id=dbt_test, run_id=manual__2024-12-07T03:41:22.578022+00:00, execution_date=20241207T034122, start_date=20241207T034153, end_date=20241207T034159
+[2024-12-07T03:41:59.120+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-12-07T03:41:59.153+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-07T03:41:59.156+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

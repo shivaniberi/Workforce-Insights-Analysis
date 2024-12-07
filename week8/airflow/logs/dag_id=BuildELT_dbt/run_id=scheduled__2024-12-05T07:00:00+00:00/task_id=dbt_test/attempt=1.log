@@ -1,0 +1,31 @@
+[2024-12-06T08:47:35.262+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-06T08:47:35.361+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_test scheduled__2024-12-05T07:00:00+00:00 [queued]>
+[2024-12-06T08:47:35.378+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_test scheduled__2024-12-05T07:00:00+00:00 [queued]>
+[2024-12-06T08:47:35.380+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-12-06T08:47:35.398+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_test> on 2024-12-05 07:00:00+00:00
+[2024-12-06T08:47:35.493+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=3090) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-06T08:47:35.507+0000] {standard_task_runner.py:63} INFO - Started process 3092 to run task
+[2024-12-06T08:47:35.517+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_test', 'scheduled__2024-12-05T07:00:00+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmpk33kspi2']
+[2024-12-06T08:47:35.543+0000] {standard_task_runner.py:91} INFO - Job 49: Subtask dbt_test
+[2024-12-06T08:47:35.717+0000] {task_command.py:426} INFO - Running <TaskInstance: BuildELT_dbt.dbt_test scheduled__2024-12-05T07:00:00+00:00 [running]> on host 1ed1f547130e
+[2024-12-06T08:47:35.946+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2024-12-05T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-05T07:00:00+00:00'
+[2024-12-06T08:47:35.955+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-06T08:47:35.990+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-06T08:47:35.997+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt test --profiles-dir /opt/***/final_dbt --project-dir /opt/***/final_dbt']
+[2024-12-06T08:47:36.068+0000] {subprocess.py:86} INFO - Output:
+[2024-12-06T08:47:40.114+0000] {subprocess.py:93} INFO - [0m08:47:40  Running with dbt=1.8.7
+[2024-12-06T08:47:42.804+0000] {subprocess.py:93} INFO - [0m08:47:42  Registered adapter: snowflake=1.8.4
+[2024-12-06T08:47:43.701+0000] {subprocess.py:93} INFO - [0m08:47:43  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2024-12-06T08:47:43.729+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2024-12-06T08:47:43.739+0000] {subprocess.py:93} INFO - - models.final_dbt.example
+[2024-12-06T08:47:44.613+0000] {subprocess.py:93} INFO - [0m08:47:44  Found 2 snapshots, 3 models, 2 sources, 459 macros
+[2024-12-06T08:47:44.727+0000] {subprocess.py:93} INFO - [0m08:47:44
+[2024-12-06T08:47:44.729+0000] {subprocess.py:93} INFO - [0m08:47:44  Nothing to do. Try checking your model configs and model specification args
+[2024-12-06T10:09:57.735+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-12-06T10:09:57.814+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-06T10:09:58.348+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=BuildELT_dbt, task_id=dbt_test, run_id=scheduled__2024-12-05T07:00:00+00:00, execution_date=20241205T070000, start_date=20241206T084735, end_date=20241206T100958
+[2024-12-06T10:09:58.683+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-12-06T10:09:59.404+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T10:09:59.452+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

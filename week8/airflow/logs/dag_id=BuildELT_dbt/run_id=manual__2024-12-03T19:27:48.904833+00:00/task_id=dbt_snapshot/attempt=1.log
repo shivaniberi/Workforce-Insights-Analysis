@@ -1,0 +1,42 @@
+[2024-12-03T19:29:21.060+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-03T19:29:21.137+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_snapshot manual__2024-12-03T19:27:48.904833+00:00 [queued]>
+[2024-12-03T19:29:21.155+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_snapshot manual__2024-12-03T19:27:48.904833+00:00 [queued]>
+[2024-12-03T19:29:21.156+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-12-03T19:29:21.176+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_snapshot> on 2024-12-03 19:27:48.904833+00:00
+[2024-12-03T19:29:21.195+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=3096) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-03T19:29:21.199+0000] {standard_task_runner.py:63} INFO - Started process 3107 to run task
+[2024-12-03T19:29:21.200+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_snapshot', 'manual__2024-12-03T19:27:48.904833+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmpmeka6neu']
+[2024-12-03T19:29:21.208+0000] {standard_task_runner.py:91} INFO - Job 71: Subtask dbt_snapshot
+[2024-12-03T19:29:21.280+0000] {task_command.py:426} INFO - Running <TaskInstance: BuildELT_dbt.dbt_snapshot manual__2024-12-03T19:27:48.904833+00:00 [running]> on host 2adeb2e19af7
+[2024-12-03T19:29:21.575+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_snapshot' AIRFLOW_CTX_EXECUTION_DATE='2024-12-03T19:27:48.904833+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-03T19:27:48.904833+00:00'
+[2024-12-03T19:29:21.590+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-03T19:29:21.595+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-03T19:29:21.604+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt snapshot --profiles-dir /opt/***/final_dbt --project-dir /opt/***/final_dbt']
+[2024-12-03T19:29:21.666+0000] {subprocess.py:86} INFO - Output:
+[2024-12-03T19:29:24.226+0000] {subprocess.py:93} INFO - [0m19:29:24  Running with dbt=1.8.7
+[2024-12-03T19:29:25.405+0000] {subprocess.py:93} INFO - [0m19:29:25  Registered adapter: snowflake=1.8.4
+[2024-12-03T19:29:25.783+0000] {subprocess.py:93} INFO - [0m19:29:25  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2024-12-03T19:29:25.784+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2024-12-03T19:29:25.787+0000] {subprocess.py:93} INFO - - models.final_dbt.example
+[2024-12-03T19:29:25.994+0000] {subprocess.py:93} INFO - [0m19:29:25  Found 2 snapshots, 3 models, 2 sources, 459 macros
+[2024-12-03T19:29:26.003+0000] {subprocess.py:93} INFO - [0m19:29:26
+[2024-12-03T19:29:30.872+0000] {subprocess.py:93} INFO - [0m19:29:30  Concurrency: 1 threads (target='dev')
+[2024-12-03T19:29:30.880+0000] {subprocess.py:93} INFO - [0m19:29:30
+[2024-12-03T19:29:30.900+0000] {subprocess.py:93} INFO - [0m19:29:30  1 of 2 START snapshot snapshot.job_listings_snapshot ........................... [RUN]
+[2024-12-03T19:29:36.290+0000] {subprocess.py:93} INFO - [0m19:29:36  1 of 2 OK snapshotted snapshot.job_listings_snapshot ........................... [[32mSUCCESS 0[0m in 5.37s]
+[2024-12-03T19:29:36.299+0000] {subprocess.py:93} INFO - [0m19:29:36  2 of 2 START snapshot snapshot.test_snapshot ................................... [RUN]
+[2024-12-03T19:29:41.559+0000] {subprocess.py:93} INFO - [0m19:29:41  2 of 2 OK snapshotted snapshot.test_snapshot ................................... [[32mSUCCESS 2[0m in 5.25s]
+[2024-12-03T19:29:41.570+0000] {subprocess.py:93} INFO - [0m19:29:41
+[2024-12-03T19:29:41.572+0000] {subprocess.py:93} INFO - [0m19:29:41  Finished running 2 snapshots in 0 hours 0 minutes and 15.56 seconds (15.56s).
+[2024-12-03T19:29:41.680+0000] {subprocess.py:93} INFO - [0m19:29:41
+[2024-12-03T19:29:41.684+0000] {subprocess.py:93} INFO - [0m19:29:41  [32mCompleted successfully[0m
+[2024-12-03T19:29:41.686+0000] {subprocess.py:93} INFO - [0m19:29:41
+[2024-12-03T19:29:41.688+0000] {subprocess.py:93} INFO - [0m19:29:41  Done. PASS=2 WARN=0 ERROR=0 SKIP=0 TOTAL=2
+[2024-12-03T19:29:42.841+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-12-03T19:29:42.852+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-03T19:29:42.944+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=BuildELT_dbt, task_id=dbt_snapshot, run_id=manual__2024-12-03T19:27:48.904833+00:00, execution_date=20241203T192748, start_date=20241203T192921, end_date=20241203T192942
+[2024-12-03T19:29:43.060+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-12-03T19:29:43.130+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-03T19:29:43.134+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,11 @@
+[2024-11-30T19:17:13.521+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-30T19:17:13.664+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stockprices_v2_decorator.extract__1 scheduled__2024-11-30T17:30:00+00:00 [queued]>
+[2024-11-30T19:17:13.758+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stockprices_v2_decorator.extract__1 scheduled__2024-11-30T17:30:00+00:00 [queued]>
+[2024-11-30T19:17:13.766+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-11-30T19:17:14.182+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): extract__1> on 2024-11-30 17:30:00+00:00
+[2024-11-30T19:17:14.262+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=2135) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-30T19:17:14.313+0000] {standard_task_runner.py:63} INFO - Started process 2168 to run task
+[2024-11-30T19:17:14.369+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'stockprices_v2_decorator', 'extract__1', 'scheduled__2024-11-30T17:30:00+00:00', '--job-id', '2916', '--raw', '--subdir', 'DAGS_FOLDER/stockprices_v2_decorator(3).py', '--cfg-path', '/tmp/tmph3sc0q9u']
+[2024-11-30T19:17:14.420+0000] {standard_task_runner.py:91} INFO - Job 2916: Subtask extract__1

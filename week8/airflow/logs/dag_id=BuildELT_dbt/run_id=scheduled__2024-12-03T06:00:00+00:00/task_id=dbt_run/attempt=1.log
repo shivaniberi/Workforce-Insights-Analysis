@@ -1,0 +1,44 @@
+[2024-12-04T19:53:31.607+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-04T19:53:31.634+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run scheduled__2024-12-03T06:00:00+00:00 [queued]>
+[2024-12-04T19:53:31.644+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run scheduled__2024-12-03T06:00:00+00:00 [queued]>
+[2024-12-04T19:53:31.645+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-12-04T19:53:31.655+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_run> on 2024-12-03 06:00:00+00:00
+[2024-12-04T19:53:31.667+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=196) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-04T19:53:31.669+0000] {standard_task_runner.py:63} INFO - Started process 198 to run task
+[2024-12-04T19:53:31.669+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_run', 'scheduled__2024-12-03T06:00:00+00:00', '--job-id', '97', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmpq80bkm9r']
+[2024-12-04T19:53:31.673+0000] {standard_task_runner.py:91} INFO - Job 97: Subtask dbt_run
+[2024-12-04T19:53:31.707+0000] {task_command.py:426} INFO - Running <TaskInstance: BuildELT_dbt.dbt_run scheduled__2024-12-03T06:00:00+00:00 [running]> on host 2adeb2e19af7
+[2024-12-04T19:53:31.777+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2024-12-03T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-03T06:00:00+00:00'
+[2024-12-04T19:53:31.781+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-04T19:53:31.784+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-04T19:53:31.786+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt run --profiles-dir /opt/***/final_dbt --project-dir /opt/***/final_dbt']
+[2024-12-04T19:53:31.799+0000] {subprocess.py:86} INFO - Output:
+[2024-12-04T19:53:34.021+0000] {subprocess.py:93} INFO - [0m19:53:34  Running with dbt=1.8.7
+[2024-12-04T19:53:34.938+0000] {subprocess.py:93} INFO - [0m19:53:34  Registered adapter: snowflake=1.8.4
+[2024-12-04T19:53:35.349+0000] {subprocess.py:93} INFO - [0m19:53:35  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2024-12-04T19:53:35.355+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2024-12-04T19:53:35.363+0000] {subprocess.py:93} INFO - - models.final_dbt.example
+[2024-12-04T19:53:35.811+0000] {subprocess.py:93} INFO - [0m19:53:35  Found 2 snapshots, 3 models, 2 sources, 459 macros
+[2024-12-04T19:53:35.822+0000] {subprocess.py:93} INFO - [0m19:53:35
+[2024-12-04T19:53:40.969+0000] {subprocess.py:93} INFO - [0m19:53:40  Concurrency: 1 threads (target='dev')
+[2024-12-04T19:53:40.976+0000] {subprocess.py:93} INFO - [0m19:53:40
+[2024-12-04T19:53:40.988+0000] {subprocess.py:93} INFO - [0m19:53:40  1 of 3 START sql view model analytics.stg_job_listings ......................... [RUN]
+[2024-12-04T19:53:42.677+0000] {subprocess.py:93} INFO - [0m19:53:42  1 of 3 OK created sql view model analytics.stg_job_listings .................... [[32mSUCCESS 1[0m in 1.67s]
+[2024-12-04T19:53:42.695+0000] {subprocess.py:93} INFO - [0m19:53:42  2 of 3 START sql view model analytics.stg_job_listings_history ................. [RUN]
+[2024-12-04T19:53:44.374+0000] {subprocess.py:93} INFO - [0m19:53:44  2 of 3 OK created sql view model analytics.stg_job_listings_history ............ [[32mSUCCESS 1[0m in 1.67s]
+[2024-12-04T19:53:44.381+0000] {subprocess.py:93} INFO - [0m19:53:44  3 of 3 START sql table model analytics.job_salary_trends ....................... [RUN]
+[2024-12-04T19:53:46.545+0000] {subprocess.py:93} INFO - [0m19:53:46  3 of 3 OK created sql table model analytics.job_salary_trends .................. [[32mSUCCESS 1[0m in 2.15s]
+[2024-12-04T19:53:46.561+0000] {subprocess.py:93} INFO - [0m19:53:46
+[2024-12-04T19:53:46.563+0000] {subprocess.py:93} INFO - [0m19:53:46  Finished running 2 view models, 1 table model in 0 hours 0 minutes and 10.74 seconds (10.74s).
+[2024-12-04T19:53:46.697+0000] {subprocess.py:93} INFO - [0m19:53:46
+[2024-12-04T19:53:46.701+0000] {subprocess.py:93} INFO - [0m19:53:46  [32mCompleted successfully[0m
+[2024-12-04T19:53:46.703+0000] {subprocess.py:93} INFO - [0m19:53:46
+[2024-12-04T19:53:46.705+0000] {subprocess.py:93} INFO - [0m19:53:46  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[2024-12-04T19:53:47.655+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-12-04T19:53:47.659+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-04T19:53:47.705+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=BuildELT_dbt, task_id=dbt_run, run_id=scheduled__2024-12-03T06:00:00+00:00, execution_date=20241203T060000, start_date=20241204T195331, end_date=20241204T195347
+[2024-12-04T19:53:47.766+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-12-04T19:53:47.797+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-04T19:53:47.803+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

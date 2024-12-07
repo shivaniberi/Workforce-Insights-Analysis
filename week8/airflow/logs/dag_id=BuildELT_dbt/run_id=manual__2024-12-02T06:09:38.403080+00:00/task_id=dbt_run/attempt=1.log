@@ -1,0 +1,53 @@
+[2024-12-02T06:09:54.176+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-02T06:09:54.238+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run manual__2024-12-02T06:09:38.403080+00:00 [queued]>
+[2024-12-02T06:09:54.260+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run manual__2024-12-02T06:09:38.403080+00:00 [queued]>
+[2024-12-02T06:09:54.269+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-12-02T06:09:54.299+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_run> on 2024-12-02 06:09:38.403080+00:00
+[2024-12-02T06:09:54.323+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=253) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-02T06:09:54.332+0000] {standard_task_runner.py:63} INFO - Started process 262 to run task
+[2024-12-02T06:09:54.333+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_run', 'manual__2024-12-02T06:09:38.403080+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmp2shq5jea']
+[2024-12-02T06:09:54.355+0000] {standard_task_runner.py:91} INFO - Job 5: Subtask dbt_run
+[2024-12-02T06:09:54.472+0000] {task_command.py:426} INFO - Running <TaskInstance: BuildELT_dbt.dbt_run manual__2024-12-02T06:09:38.403080+00:00 [running]> on host 196076bc5f60
+[2024-12-02T06:09:54.647+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2024-12-02T06:09:38.403080+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-02T06:09:38.403080+00:00'
+[2024-12-02T06:09:54.658+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-02T06:09:54.667+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-02T06:09:54.672+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt run --profiles-dir /opt/***/final_dbt --project-dir /opt/***/final_dbt']
+[2024-12-02T06:09:54.719+0000] {subprocess.py:86} INFO - Output:
+[2024-12-02T06:10:00.064+0000] {subprocess.py:93} INFO - [0m06:10:00  Running with dbt=1.8.7
+[2024-12-02T06:10:01.837+0000] {subprocess.py:93} INFO - [0m06:10:01  Registered adapter: snowflake=1.8.4
+[2024-12-02T06:10:02.198+0000] {subprocess.py:93} INFO - [0m06:10:02  Unable to do partial parsing because profile has changed
+[2024-12-02T06:10:03.372+0000] {subprocess.py:93} INFO - [0m06:10:03  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2024-12-02T06:10:03.377+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2024-12-02T06:10:03.381+0000] {subprocess.py:93} INFO - - models.final_dbt.example
+[2024-12-02T06:10:03.679+0000] {subprocess.py:93} INFO - [0m06:10:03  Found 4 models, 1 snapshot, 2 sources, 459 macros
+[2024-12-02T06:10:03.689+0000] {subprocess.py:93} INFO - [0m06:10:03
+[2024-12-02T06:10:05.795+0000] {subprocess.py:93} INFO - [0m06:10:05
+[2024-12-02T06:10:05.803+0000] {subprocess.py:93} INFO - [0m06:10:05  Finished running  in 0 hours 0 minutes and 2.10 seconds (2.10s).
+[2024-12-02T06:10:05.808+0000] {subprocess.py:93} INFO - [0m06:10:05  Encountered an error:
+[2024-12-02T06:10:05.809+0000] {subprocess.py:93} INFO - Runtime Error
+[2024-12-02T06:10:05.811+0000] {subprocess.py:93} INFO -   Database error while listing schemas in database "dev"
+[2024-12-02T06:10:05.821+0000] {subprocess.py:93} INFO -   Database Error
+[2024-12-02T06:10:05.823+0000] {subprocess.py:93} INFO -     250001 (08001): Failed to connect to DB: SZ79507.eu-central-2.aws.snowflakecomputing.com:443. Role 'ACCOUNT_ADMIN' specified in the connect string does not exist or not authorized. Contact your local system administrator, or attempt to login with another role, e.g. PUBLIC.
+[2024-12-02T06:10:07.492+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2024-12-02T06:10:07.503+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-02T06:10:07.556+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2024-12-02T06:10:07.596+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=BuildELT_dbt, task_id=dbt_run, run_id=manual__2024-12-02T06:09:38.403080+00:00, execution_date=20241202T060938, start_date=20241202T060954, end_date=20241202T061007
+[2024-12-02T06:10:07.632+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 5 for task dbt_run (Bash command failed. The command returned a non-zero exit code 2.; 262)
+[2024-12-02T06:10:07.698+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-12-02T06:10:07.748+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-02T06:10:07.753+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

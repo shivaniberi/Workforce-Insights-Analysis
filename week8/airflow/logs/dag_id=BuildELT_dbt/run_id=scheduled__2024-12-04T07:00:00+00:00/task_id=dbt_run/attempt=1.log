@@ -1,0 +1,111 @@
+[2024-12-05T08:08:11.561+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-05T08:08:11.884+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run scheduled__2024-12-04T07:00:00+00:00 [queued]>
+[2024-12-05T08:08:13.387+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run scheduled__2024-12-04T07:00:00+00:00 [queued]>
+[2024-12-05T08:08:13.415+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-12-05T08:08:13.558+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_run> on 2024-12-04 07:00:00+00:00
+[2024-12-05T08:08:13.743+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=4945) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-05T08:08:13.753+0000] {standard_task_runner.py:63} INFO - Started process 4948 to run task
+[2024-12-05T08:08:13.751+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_run', 'scheduled__2024-12-04T07:00:00+00:00', '--job-id', '109', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmpsji3rhoy']
+[2024-12-05T08:08:13.797+0000] {standard_task_runner.py:91} INFO - Job 109: Subtask dbt_run
+[2024-12-05T08:08:13.993+0000] {task_command.py:426} INFO - Running <TaskInstance: BuildELT_dbt.dbt_run scheduled__2024-12-04T07:00:00+00:00 [running]> on host 2adeb2e19af7
+[2024-12-05T08:08:14.582+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-04T07:00:00+00:00'
+[2024-12-05T08:08:14.624+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-05T08:08:14.639+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-05T08:08:14.653+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt run --profiles-dir /opt/***/final_dbt --project-dir /opt/***/final_dbt']
+[2024-12-05T08:08:14.767+0000] {subprocess.py:86} INFO - Output:
+[2024-12-05T08:08:18.197+0000] {subprocess.py:93} INFO - [0m08:08:18  Running with dbt=1.8.7
+[2024-12-05T08:08:22.462+0000] {subprocess.py:93} INFO - [0m08:08:22  Registered adapter: snowflake=1.8.4
+[2024-12-05T08:08:22.873+0000] {subprocess.py:93} INFO - [0m08:08:22  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2024-12-05T08:08:22.874+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2024-12-05T08:08:22.875+0000] {subprocess.py:93} INFO - - models.final_dbt.example
+[2024-12-05T08:08:23.569+0000] {subprocess.py:93} INFO - [0m08:08:23  Found 2 snapshots, 3 models, 2 sources, 459 macros
+[2024-12-05T08:08:23.586+0000] {subprocess.py:93} INFO - [0m08:08:23
+[2024-12-05T09:30:35.523+0000] {subprocess.py:93} INFO - [0m09:30:35  Concurrency: 1 threads (target='dev')
+[2024-12-05T09:30:35.529+0000] {subprocess.py:93} INFO - [0m09:30:35
+[2024-12-05T09:30:35.552+0000] {subprocess.py:93} INFO - [0m09:30:35  1 of 3 START sql view model analytics.stg_job_listings ......................... [RUN]
+[2024-12-05T09:30:37.362+0000] {subprocess.py:93} INFO - [0m09:30:37  1 of 3 OK created sql view model analytics.stg_job_listings .................... [[32mSUCCESS 1[0m in 1.80s]
+[2024-12-05T09:30:37.377+0000] {subprocess.py:93} INFO - [0m09:30:37  2 of 3 START sql view model analytics.stg_job_listings_history ................. [RUN]
+[2024-12-05T09:30:41.559+0000] {subprocess.py:93} INFO - [0m09:30:41  2 of 3 OK created sql view model analytics.stg_job_listings_history ............ [[32mSUCCESS 1[0m in 4.17s]
+[2024-12-05T09:30:41.577+0000] {subprocess.py:93} INFO - [0m09:30:41  3 of 3 START sql table model analytics.job_salary_trends ....................... [RUN]
+[2024-12-05T09:30:47.690+0000] {subprocess.py:93} INFO - [0m09:30:47  3 of 3 OK created sql table model analytics.job_salary_trends .................. [[32mSUCCESS 1[0m in 5.72s]
+[2024-12-05T09:30:48.516+0000] {subprocess.py:93} INFO - [0m09:30:48
+[2024-12-05T09:30:48.546+0000] {subprocess.py:93} INFO - [0m09:30:48  Finished running 2 view models, 1 table model in 1 hours 22 minutes and 24.92 seconds (4944.92s).
+[2024-12-05T09:30:50.987+0000] {subprocess.py:93} INFO - [0m09:30:50
+[2024-12-05T09:30:51.003+0000] {subprocess.py:93} INFO - [0m09:30:51  [32mCompleted successfully[0m
+[2024-12-05T09:30:51.010+0000] {subprocess.py:93} INFO - [0m09:30:51
+[2024-12-05T09:30:51.020+0000] {subprocess.py:93} INFO - [0m09:30:51  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[2024-12-05T09:30:56.427+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-12-05T09:30:56.546+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-05T09:30:57.537+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=BuildELT_dbt, task_id=dbt_run, run_id=scheduled__2024-12-04T07:00:00+00:00, execution_date=20241204T070000, start_date=20241205T080812, end_date=20241205T093057
+[2024-12-05T09:30:59.309+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-12-05T09:30:59.653+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-05T09:30:59.663+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-12-05T22:43:37.588+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-05T22:43:37.630+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run scheduled__2024-12-04T07:00:00+00:00 [queued]>
+[2024-12-05T22:43:37.643+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_run scheduled__2024-12-04T07:00:00+00:00 [queued]>
+[2024-12-05T22:43:37.647+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-12-05T22:43:37.671+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_run> on 2024-12-04 07:00:00+00:00
+[2024-12-05T22:43:37.702+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=257) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-05T22:43:37.714+0000] {standard_task_runner.py:63} INFO - Started process 259 to run task
+[2024-12-05T22:43:37.709+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_run', 'scheduled__2024-12-04T07:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmpihjy0khr']
+[2024-12-05T22:43:37.725+0000] {standard_task_runner.py:91} INFO - Job 5: Subtask dbt_run
+[2024-12-05T22:43:37.791+0000] {task_command.py:426} INFO - Running <TaskInstance: BuildELT_dbt.dbt_run scheduled__2024-12-04T07:00:00+00:00 [running]> on host 1ed1f547130e
+[2024-12-05T22:43:37.894+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2024-12-04T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-04T07:00:00+00:00'
+[2024-12-05T22:43:37.900+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-05T22:43:37.906+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-05T22:43:37.909+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt run --profiles-dir /opt/***/final_dbt --project-dir /opt/***/final_dbt']
+[2024-12-05T22:43:37.932+0000] {subprocess.py:86} INFO - Output:
+[2024-12-05T22:43:41.468+0000] {subprocess.py:93} INFO - [0m22:43:41  Running with dbt=1.8.7
+[2024-12-05T22:43:42.865+0000] {subprocess.py:93} INFO - [0m22:43:42  Registered adapter: snowflake=1.8.4
+[2024-12-05T22:43:43.308+0000] {subprocess.py:93} INFO - [0m22:43:43  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2024-12-05T22:43:43.309+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2024-12-05T22:43:43.310+0000] {subprocess.py:93} INFO - - models.final_dbt.example
+[2024-12-05T22:43:43.502+0000] {subprocess.py:93} INFO - [0m22:43:43  Found 2 snapshots, 3 models, 2 sources, 459 macros
+[2024-12-05T22:43:43.508+0000] {subprocess.py:93} INFO - [0m22:43:43
+[2024-12-05T22:43:49.619+0000] {subprocess.py:93} INFO - [0m22:43:49  Concurrency: 1 threads (target='dev')
+[2024-12-05T22:43:49.624+0000] {subprocess.py:93} INFO - [0m22:43:49
+[2024-12-05T22:43:49.644+0000] {subprocess.py:93} INFO - [0m22:43:49  1 of 3 START sql view model analytics.stg_job_listings ......................... [RUN]
+[2024-12-05T22:43:51.742+0000] {subprocess.py:93} INFO - [0m22:43:51  1 of 3 ERROR creating sql view model analytics.stg_job_listings ................ [[31mERROR[0m in 2.06s]
+[2024-12-05T22:43:51.770+0000] {subprocess.py:93} INFO - [0m22:43:51  2 of 3 START sql view model analytics.stg_job_listings_history ................. [RUN]
+[2024-12-05T22:43:53.894+0000] {subprocess.py:93} INFO - [0m22:43:53  2 of 3 ERROR creating sql view model analytics.stg_job_listings_history ........ [[31mERROR[0m in 2.01s]
+[2024-12-05T22:43:54.023+0000] {subprocess.py:93} INFO - [0m22:43:54  3 of 3 SKIP relation analytics.job_salary_trends ............................... [[33mSKIP[0m]
+[2024-12-05T22:43:54.085+0000] {subprocess.py:93} INFO - [0m22:43:54
+[2024-12-05T22:43:54.103+0000] {subprocess.py:93} INFO - [0m22:43:54  Finished running 2 view models, 1 table model in 0 hours 0 minutes and 10.57 seconds (10.57s).
+[2024-12-05T22:43:54.643+0000] {subprocess.py:93} INFO - [0m22:43:54
+[2024-12-05T22:43:54.658+0000] {subprocess.py:93} INFO - [0m22:43:54  [31mCompleted with 2 errors and 0 warnings:[0m
+[2024-12-05T22:43:54.663+0000] {subprocess.py:93} INFO - [0m22:43:54
+[2024-12-05T22:43:54.669+0000] {subprocess.py:93} INFO - [0m22:43:54    Database Error in model stg_job_listings (models/input/stg_job_listings.sql)
+[2024-12-05T22:43:54.681+0000] {subprocess.py:93} INFO -   000904 (42000): SQL compilation error: error line 9 at position 4
+[2024-12-05T22:43:54.693+0000] {subprocess.py:93} INFO -   invalid identifier 'DESCRIPTION'
+[2024-12-05T22:43:54.695+0000] {subprocess.py:93} INFO -   compiled code at target/run/final_dbt/models/input/stg_job_listings.sql
+[2024-12-05T22:43:54.703+0000] {subprocess.py:93} INFO - [0m22:43:54
+[2024-12-05T22:43:54.706+0000] {subprocess.py:93} INFO - [0m22:43:54    Database Error in model stg_job_listings_history (models/input/stg_job_listings_history.sql)
+[2024-12-05T22:43:54.707+0000] {subprocess.py:93} INFO -   000904 (42000): SQL compilation error: error line 9 at position 4
+[2024-12-05T22:43:54.708+0000] {subprocess.py:93} INFO -   invalid identifier 'DESCRIPTION'
+[2024-12-05T22:43:54.709+0000] {subprocess.py:93} INFO -   compiled code at target/run/final_dbt/models/input/stg_job_listings_history.sql
+[2024-12-05T22:43:54.710+0000] {subprocess.py:93} INFO - [0m22:43:54
+[2024-12-05T22:43:54.712+0000] {subprocess.py:93} INFO - [0m22:43:54  Done. PASS=0 WARN=0 ERROR=2 SKIP=1 TOTAL=3
+[2024-12-05T22:43:58.024+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-12-05T22:43:58.039+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-05T22:43:58.105+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-12-05T22:43:58.158+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=BuildELT_dbt, task_id=dbt_run, run_id=scheduled__2024-12-04T07:00:00+00:00, execution_date=20241204T070000, start_date=20241205T224337, end_date=20241205T224358
+[2024-12-05T22:43:58.237+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 5 for task dbt_run (Bash command failed. The command returned a non-zero exit code 1.; 259)
+[2024-12-05T22:43:58.300+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-12-05T22:43:58.333+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

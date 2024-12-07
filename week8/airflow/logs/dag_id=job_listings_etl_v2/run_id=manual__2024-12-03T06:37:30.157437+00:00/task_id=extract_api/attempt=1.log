@@ -1,0 +1,49 @@
+[2024-12-03T06:37:32.983+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-03T06:37:33.004+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: job_listings_etl_v2.extract_api manual__2024-12-03T06:37:30.157437+00:00 [queued]>
+[2024-12-03T06:37:33.011+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: job_listings_etl_v2.extract_api manual__2024-12-03T06:37:30.157437+00:00 [queued]>
+[2024-12-03T06:37:33.013+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2024-12-03T06:37:33.028+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): extract_api> on 2024-12-03 06:37:30.157437+00:00
+[2024-12-03T06:37:33.036+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=279) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-03T06:37:33.038+0000] {standard_task_runner.py:63} INFO - Started process 284 to run task
+[2024-12-03T06:37:33.038+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'job_listings_etl_v2', 'extract_api', 'manual__2024-12-03T06:37:30.157437+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/ETL_FINAL_PROJECT (1).py', '--cfg-path', '/tmp/tmpd_d9cc7z']
+[2024-12-03T06:37:33.042+0000] {standard_task_runner.py:91} INFO - Job 5: Subtask extract_api
+[2024-12-03T06:37:33.081+0000] {task_command.py:426} INFO - Running <TaskInstance: job_listings_etl_v2.extract_api manual__2024-12-03T06:37:30.157437+00:00 [running]> on host 2adeb2e19af7
+[2024-12-03T06:37:33.129+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='job_listings_etl_v2' AIRFLOW_CTX_TASK_ID='extract_api' AIRFLOW_CTX_EXECUTION_DATE='2024-12-03T06:37:30.157437+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-03T06:37:30.157437+00:00'
+[2024-12-03T06:37:33.132+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-03T06:37:33.148+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-03T06:37:33.151+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 265, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/ETL_FINAL_PROJECT (1).py", line 37, in extract_api
+    app_key = Variable.get('ADZUNA_API_KEY')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable ADZUNA_API_KEY does not exist'
+[2024-12-03T06:37:33.167+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=job_listings_etl_v2, task_id=extract_api, run_id=manual__2024-12-03T06:37:30.157437+00:00, execution_date=20241203T063730, start_date=20241203T063733, end_date=20241203T063733
+[2024-12-03T06:37:33.178+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 5 for task extract_api ('Variable ADZUNA_API_KEY does not exist'; 284)
+[2024-12-03T06:37:33.214+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-12-03T06:37:33.233+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-03T06:37:33.235+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

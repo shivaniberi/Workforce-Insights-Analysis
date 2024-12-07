@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw data tables in Snowflake"
+    database: dev  # Replace with your actual database name
+    schema: raw_data      # Replace with your actual schema name
+    tables:
+      - name: historical_data
+        description: "Historical job data"
+      - name: job_listings
+        description: "Real-time job data"
+
+

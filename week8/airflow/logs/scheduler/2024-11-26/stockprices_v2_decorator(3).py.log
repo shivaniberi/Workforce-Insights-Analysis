@@ -1,0 +1,896 @@
+[2024-11-26T00:00:01.184+0000] {processor.py:161} INFO - Started process (PID=27618) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:00:01.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:00:01.198+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:00:01.197+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:00:01.224+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:00:01.355+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:00:01.354+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:00:01.387+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:00:01.386+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:00:01.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.242 seconds
+[2024-11-26T00:00:31.565+0000] {processor.py:161} INFO - Started process (PID=27672) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:00:31.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:00:31.570+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:00:31.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:00:31.609+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:00:31.656+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:00:31.656+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:00:31.696+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:00:31.695+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:00:31.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.185 seconds
+[2024-11-26T00:01:01.934+0000] {processor.py:161} INFO - Started process (PID=27735) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:01:01.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:01:01.945+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:01:01.944+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:01:01.968+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:01:01.995+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:01:01.995+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:01:02.028+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:01:02.028+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:01:02.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.129 seconds
+[2024-11-26T00:01:33.236+0000] {processor.py:161} INFO - Started process (PID=27795) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:01:33.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:01:33.240+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:01:33.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:01:33.261+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:01:33.294+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:01:33.294+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:01:33.326+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:01:33.326+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:01:33.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.124 seconds
+[2024-11-26T00:02:03.699+0000] {processor.py:161} INFO - Started process (PID=27853) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:02:03.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:02:03.714+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:02:03.713+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:02:03.775+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:02:03.838+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:02:03.838+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:02:03.959+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:02:03.959+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:02:04.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.329 seconds
+[2024-11-26T00:02:34.373+0000] {processor.py:161} INFO - Started process (PID=27917) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:02:34.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:02:34.378+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:02:34.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:02:34.396+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:02:34.413+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:02:34.413+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:02:34.431+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:02:34.431+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:02:34.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.076 seconds
+[2024-11-26T00:03:04.834+0000] {processor.py:161} INFO - Started process (PID=27980) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:03:04.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:03:04.844+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:03:04.843+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:03:04.882+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:03:04.940+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:03:04.940+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:03:04.979+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:03:04.979+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:03:05.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.196 seconds
+[2024-11-26T00:03:35.800+0000] {processor.py:161} INFO - Started process (PID=28043) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:03:35.803+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:03:35.807+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:03:35.806+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:03:35.834+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:03:35.866+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:03:35.866+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:03:35.893+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:03:35.893+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:03:35.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.126 seconds
+[2024-11-26T00:04:06.306+0000] {processor.py:161} INFO - Started process (PID=28106) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:04:06.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:04:06.316+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:04:06.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:04:06.355+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:04:06.399+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:04:06.399+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:04:06.448+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:04:06.448+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:04:06.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.195 seconds
+[2024-11-26T00:04:36.818+0000] {processor.py:161} INFO - Started process (PID=28169) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:04:36.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:04:36.824+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:04:36.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:04:36.852+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:04:36.894+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:04:36.894+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:04:36.942+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:04:36.922+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:04:37.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.324 seconds
+[2024-11-26T00:05:07.545+0000] {processor.py:161} INFO - Started process (PID=28233) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:05:07.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:05:07.549+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:05:07.549+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:05:07.577+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:05:07.626+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:05:07.626+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:05:07.652+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:05:07.652+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:05:07.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.150 seconds
+[2024-11-26T00:05:37.823+0000] {processor.py:161} INFO - Started process (PID=28297) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:05:37.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:05:37.834+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:05:37.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:05:37.879+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:05:37.974+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:05:37.974+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:05:38.016+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:05:38.016+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:05:38.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.230 seconds
+[2024-11-26T00:06:09.140+0000] {processor.py:161} INFO - Started process (PID=28354) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:06:09.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:06:09.144+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:06:09.144+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:06:09.161+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:06:09.515+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:06:09.514+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:06:09.547+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:06:09.546+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:06:09.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.435 seconds
+[2024-11-26T00:06:39.760+0000] {processor.py:161} INFO - Started process (PID=28413) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:06:39.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:06:39.765+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:06:39.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:06:39.786+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:06:39.804+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:06:39.804+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:06:39.823+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:06:39.823+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:06:39.838+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.086 seconds
+[2024-11-26T00:07:10.676+0000] {processor.py:161} INFO - Started process (PID=28475) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:07:10.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:07:10.682+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:07:10.681+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:07:10.712+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:07:10.748+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:07:10.748+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:07:10.775+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:07:10.775+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:07:10.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.130 seconds
+[2024-11-26T00:07:41.239+0000] {processor.py:161} INFO - Started process (PID=28538) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:07:41.241+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:07:41.253+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:07:41.252+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:07:41.289+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:07:41.364+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:07:41.363+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:07:41.421+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:07:41.421+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:07:41.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.229 seconds
+[2024-11-26T00:08:12.303+0000] {processor.py:161} INFO - Started process (PID=28601) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:08:12.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:08:12.307+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:08:12.307+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:08:12.331+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:08:12.359+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:08:12.359+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:08:12.381+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:08:12.381+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:08:12.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.108 seconds
+[2024-11-26T00:08:42.973+0000] {processor.py:161} INFO - Started process (PID=28664) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:08:42.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:08:42.986+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:08:42.985+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:08:43.003+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:08:43.040+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:08:43.040+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:08:43.062+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:08:43.062+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:08:43.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.113 seconds
+[2024-11-26T00:09:13.685+0000] {processor.py:161} INFO - Started process (PID=28726) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:09:13.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:09:13.689+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:09:13.689+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:09:13.706+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:09:13.726+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:09:13.726+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:09:13.743+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:09:13.743+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:09:13.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.082 seconds
+[2024-11-26T00:09:44.155+0000] {processor.py:161} INFO - Started process (PID=28789) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:09:44.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:09:44.168+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:09:44.164+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:09:44.207+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:09:44.252+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:09:44.251+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:09:44.312+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:09:44.312+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-25 23:50:00+00:00, run_after=2024-11-26 00:00:00+00:00
+[2024-11-26T00:09:44.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.244 seconds
+[2024-11-26T00:10:15.295+0000] {processor.py:161} INFO - Started process (PID=28852) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:10:15.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:10:15.299+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:10:15.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:10:15.318+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:10:15.351+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:10:15.351+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:10:15.370+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:10:15.370+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:10:15.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.118 seconds
+[2024-11-26T00:10:46.165+0000] {processor.py:161} INFO - Started process (PID=28915) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:10:46.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:10:46.172+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:10:46.172+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:10:46.205+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:10:46.264+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:10:46.263+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:10:46.290+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:10:46.290+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:10:46.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.158 seconds
+[2024-11-26T00:11:16.466+0000] {processor.py:161} INFO - Started process (PID=28978) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:11:16.468+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:11:16.470+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:11:16.470+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:11:16.487+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:11:16.503+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:11:16.503+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:11:16.527+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:11:16.527+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:11:16.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.088 seconds
+[2024-11-26T00:11:47.246+0000] {processor.py:161} INFO - Started process (PID=29041) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:11:47.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:11:47.251+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:11:47.251+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:11:47.273+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:11:47.296+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:11:47.296+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:11:47.311+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:11:47.310+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:11:47.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.087 seconds
+[2024-11-26T00:12:18.124+0000] {processor.py:161} INFO - Started process (PID=29104) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:12:18.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:12:18.136+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:12:18.135+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:12:18.162+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:12:18.190+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:12:18.190+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:12:18.230+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:12:18.230+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:12:18.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.138 seconds
+[2024-11-26T00:12:48.799+0000] {processor.py:161} INFO - Started process (PID=29167) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:12:48.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:12:48.806+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:12:48.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:12:48.836+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:12:48.876+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:12:48.875+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:12:48.907+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:12:48.907+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:12:48.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.148 seconds
+[2024-11-26T00:13:19.673+0000] {processor.py:161} INFO - Started process (PID=29231) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:13:19.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:13:19.678+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:13:19.678+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:13:19.704+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:13:19.743+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:13:19.743+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:13:19.782+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:13:19.782+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:13:19.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.147 seconds
+[2024-11-26T00:13:50.404+0000] {processor.py:161} INFO - Started process (PID=29294) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:13:50.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:13:50.411+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:13:50.410+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:13:50.434+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:13:50.465+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:13:50.465+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:13:50.493+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:13:50.493+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:13:50.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.125 seconds
+[2024-11-26T00:14:21.345+0000] {processor.py:161} INFO - Started process (PID=29358) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:14:21.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:14:21.366+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:14:21.365+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:14:21.411+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:14:21.468+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:14:21.467+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:14:21.514+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:14:21.513+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:14:21.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.228 seconds
+[2024-11-26T00:14:52.372+0000] {processor.py:161} INFO - Started process (PID=29421) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:14:52.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:14:52.381+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:14:52.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:14:52.423+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:14:52.471+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:14:52.471+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:14:52.505+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:14:52.505+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:14:52.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.182 seconds
+[2024-11-26T00:15:22.743+0000] {processor.py:161} INFO - Started process (PID=29483) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:15:22.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:15:22.753+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:15:22.752+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:15:22.793+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:15:22.842+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:15:22.842+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:15:22.887+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:15:22.887+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:15:22.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.195 seconds
+[2024-11-26T00:15:53.615+0000] {processor.py:161} INFO - Started process (PID=29546) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:15:53.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:15:53.623+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:15:53.622+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:15:53.641+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:15:53.661+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:15:53.661+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:15:53.684+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:15:53.684+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:15:53.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.097 seconds
+[2024-11-26T00:16:24.307+0000] {processor.py:161} INFO - Started process (PID=29609) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:16:24.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:16:24.317+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:16:24.316+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:16:24.355+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:16:24.398+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:16:24.398+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:16:24.437+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:16:24.437+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:16:24.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.181 seconds
+[2024-11-26T00:16:55.467+0000] {processor.py:161} INFO - Started process (PID=29672) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:16:55.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:16:55.473+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:16:55.473+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:16:55.493+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:16:55.515+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:16:55.514+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:16:55.533+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:16:55.533+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:16:55.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.096 seconds
+[2024-11-26T00:17:26.526+0000] {processor.py:161} INFO - Started process (PID=29736) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:17:26.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:17:26.535+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:17:26.534+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:17:26.575+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:17:26.651+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:17:26.651+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:17:26.695+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:17:26.695+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:17:26.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.233 seconds
+[2024-11-26T00:17:56.925+0000] {processor.py:161} INFO - Started process (PID=29799) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:17:56.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:17:56.930+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:17:56.930+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:17:56.951+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:17:56.972+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:17:56.972+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:17:56.991+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:17:56.991+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:17:57.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.091 seconds
+[2024-11-26T00:18:28.072+0000] {processor.py:161} INFO - Started process (PID=29862) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:18:28.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:18:28.079+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:18:28.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:18:28.105+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:18:28.139+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:18:28.138+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:18:28.166+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:18:28.166+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:18:28.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.134 seconds
+[2024-11-26T00:18:58.592+0000] {processor.py:161} INFO - Started process (PID=29927) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:18:58.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:18:58.596+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:18:58.595+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:18:58.612+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:18:58.629+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:18:58.628+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:18:58.643+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:18:58.643+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:18:58.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.070 seconds
+[2024-11-26T00:19:28.765+0000] {processor.py:161} INFO - Started process (PID=29990) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:19:28.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:19:28.773+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:19:28.772+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:19:28.794+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:19:28.818+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:19:28.818+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:19:28.838+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:19:28.838+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:19:28.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.100 seconds
+[2024-11-26T00:19:59.802+0000] {processor.py:161} INFO - Started process (PID=30053) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:19:59.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:19:59.812+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:19:59.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:19:59.841+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:19:59.876+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:19:59.876+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:19:59.897+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:19:59.897+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:00:00+00:00, run_after=2024-11-26 00:10:00+00:00
+[2024-11-26T00:19:59.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.129 seconds
+[2024-11-26T00:20:30.150+0000] {processor.py:161} INFO - Started process (PID=30116) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:20:30.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:20:30.155+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:20:30.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:20:30.202+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:20:30.248+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:20:30.248+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:20:30.278+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:20:30.278+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:20:30.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.166 seconds
+[2024-11-26T00:21:00.705+0000] {processor.py:161} INFO - Started process (PID=30176) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:21:00.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:21:00.710+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:21:00.710+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:21:00.726+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:21:00.741+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:21:00.741+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:21:00.762+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:21:00.762+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:21:00.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.077 seconds
+[2024-11-26T00:21:31.805+0000] {processor.py:161} INFO - Started process (PID=30234) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:21:31.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:21:31.879+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:21:31.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:21:32.059+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:21:32.208+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:21:32.206+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:21:32.277+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:21:32.276+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:21:32.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.928 seconds
+[2024-11-26T00:22:02.837+0000] {processor.py:161} INFO - Started process (PID=30298) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:22:02.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:22:02.849+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:22:02.848+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:22:02.879+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:22:02.943+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:22:02.943+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:22:02.979+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:22:02.979+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:22:02.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.185 seconds
+[2024-11-26T00:22:33.545+0000] {processor.py:161} INFO - Started process (PID=30361) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:22:33.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:22:33.552+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:22:33.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:22:33.581+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:22:33.626+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:22:33.626+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:22:33.657+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:22:33.657+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:22:33.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.148 seconds
+[2024-11-26T00:23:04.733+0000] {processor.py:161} INFO - Started process (PID=30424) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:23:04.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:23:04.741+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:23:04.740+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:23:04.774+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:23:04.821+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:23:04.821+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:23:04.851+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:23:04.851+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:23:04.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.156 seconds
+[2024-11-26T00:23:35.077+0000] {processor.py:161} INFO - Started process (PID=30487) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:23:35.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:23:35.084+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:23:35.083+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:23:35.115+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:23:35.169+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:23:35.169+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:23:35.200+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:23:35.200+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:23:35.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.160 seconds
+[2024-11-26T00:24:05.860+0000] {processor.py:161} INFO - Started process (PID=30551) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:24:05.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:24:05.867+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:24:05.866+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:24:05.897+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:24:05.943+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:24:05.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:24:05.981+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:24:05.980+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:24:06.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.154 seconds
+[2024-11-26T00:24:36.365+0000] {processor.py:161} INFO - Started process (PID=30614) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:24:36.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:24:36.385+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:24:36.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:24:36.433+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:24:36.511+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:24:36.511+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:24:36.559+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:24:36.559+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:24:36.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.248 seconds
+[2024-11-26T00:25:07.639+0000] {processor.py:161} INFO - Started process (PID=30676) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:25:07.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:25:07.649+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:25:07.648+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:25:07.688+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:25:07.731+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:25:07.731+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:25:07.762+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:25:07.762+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:25:07.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.165 seconds
+[2024-11-26T00:25:38.566+0000] {processor.py:161} INFO - Started process (PID=30739) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:25:38.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:25:38.577+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:25:38.576+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:25:38.608+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:25:38.660+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:25:38.659+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:25:38.714+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:25:38.714+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:25:38.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.213 seconds
+[2024-11-26T00:26:09.720+0000] {processor.py:161} INFO - Started process (PID=30801) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:26:09.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:26:09.739+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:26:09.738+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:26:09.797+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:26:09.836+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:26:09.836+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:26:09.884+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:26:09.883+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:26:09.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.242 seconds
+[2024-11-26T00:26:40.251+0000] {processor.py:161} INFO - Started process (PID=30871) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:26:40.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:26:40.259+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:26:40.256+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:26:40.318+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:26:40.376+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:26:40.376+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:26:40.445+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:26:40.445+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:26:40.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.264 seconds
+[2024-11-26T00:27:10.795+0000] {processor.py:161} INFO - Started process (PID=30934) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:27:10.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:27:10.802+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:27:10.801+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:27:10.837+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:27:10.889+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:27:10.889+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:27:10.932+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:27:10.932+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:27:10.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.190 seconds
+[2024-11-26T00:27:41.377+0000] {processor.py:161} INFO - Started process (PID=30997) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:27:41.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:27:41.385+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:27:41.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:27:41.419+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:27:41.465+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:27:41.465+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:27:41.506+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:27:41.506+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:27:41.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.163 seconds
+[2024-11-26T00:28:11.978+0000] {processor.py:161} INFO - Started process (PID=31060) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:28:11.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:28:11.984+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:28:11.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:28:12.014+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:28:12.050+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:28:12.050+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:28:12.085+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:28:12.084+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:28:12.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.139 seconds
+[2024-11-26T00:28:42.710+0000] {processor.py:161} INFO - Started process (PID=31123) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:28:42.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:28:42.722+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:28:42.721+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:28:42.755+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:28:42.798+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:28:42.797+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:28:42.833+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:28:42.832+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:28:42.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.157 seconds
+[2024-11-26T00:29:13.402+0000] {processor.py:161} INFO - Started process (PID=31186) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:29:13.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:29:13.408+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:29:13.407+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:29:13.439+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:29:13.494+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:29:13.494+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:29:13.534+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:29:13.534+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:29:13.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.166 seconds
+[2024-11-26T00:29:44.540+0000] {processor.py:161} INFO - Started process (PID=31249) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:29:44.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:29:44.547+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:29:44.546+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:29:44.586+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:29:44.626+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:29:44.626+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:29:44.658+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:29:44.658+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:10:00+00:00, run_after=2024-11-26 00:20:00+00:00
+[2024-11-26T00:29:44.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.163 seconds
+[2024-11-26T00:30:15.531+0000] {processor.py:161} INFO - Started process (PID=31312) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:30:15.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:30:15.538+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:30:15.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:30:15.567+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:30:15.606+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:30:15.606+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:30:15.639+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:30:15.639+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:20:00+00:00, run_after=2024-11-26 00:30:00+00:00
+[2024-11-26T00:30:15.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.141 seconds
+[2024-11-26T00:30:46.485+0000] {processor.py:161} INFO - Started process (PID=31375) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:30:46.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:30:46.497+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:30:46.497+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:30:46.526+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:30:46.575+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:30:46.575+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:30:46.607+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:30:46.606+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:20:00+00:00, run_after=2024-11-26 00:30:00+00:00
+[2024-11-26T00:30:46.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.164 seconds
+[2024-11-26T00:31:16.804+0000] {processor.py:161} INFO - Started process (PID=31438) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:31:16.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:31:16.812+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:31:16.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:31:16.847+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:31:16.901+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:31:16.901+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:31:16.932+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:31:16.932+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:20:00+00:00, run_after=2024-11-26 00:30:00+00:00
+[2024-11-26T00:31:16.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.170 seconds
+[2024-11-26T00:31:47.388+0000] {processor.py:161} INFO - Started process (PID=31500) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:31:47.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:31:47.399+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:31:47.398+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:31:47.437+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:31:47.479+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:31:47.479+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:31:47.508+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:31:47.508+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:20:00+00:00, run_after=2024-11-26 00:30:00+00:00
+[2024-11-26T00:31:47.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.164 seconds
+[2024-11-26T00:32:19.894+0000] {processor.py:161} INFO - Started process (PID=31563) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:32:20.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:32:20.317+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:32:20.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:32:21.228+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:32:21.357+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:32:21.356+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:32:21.450+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:32:21.450+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:20:00+00:00, run_after=2024-11-26 00:30:00+00:00
+[2024-11-26T00:32:21.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 1.724 seconds
+[2024-11-26T00:40:00.470+0000] {processor.py:161} INFO - Started process (PID=31619) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:40:00.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:40:00.478+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:40:00.477+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:40:00.552+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:40:00.605+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:40:00.605+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:40:00.646+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:40:00.645+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:30:00+00:00, run_after=2024-11-26 00:40:00+00:00
+[2024-11-26T00:40:00.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.214 seconds
+[2024-11-26T00:40:31.138+0000] {processor.py:161} INFO - Started process (PID=31682) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:40:31.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:40:31.145+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:40:31.144+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:40:31.185+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:40:31.226+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:40:31.226+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:40:31.256+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:40:31.256+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:30:00+00:00, run_after=2024-11-26 00:40:00+00:00
+[2024-11-26T00:40:31.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.160 seconds
+[2024-11-26T00:41:02.241+0000] {processor.py:161} INFO - Started process (PID=31745) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:41:02.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:41:02.251+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:41:02.250+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:41:02.286+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:41:02.351+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:41:02.350+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:41:02.381+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:41:02.381+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:30:00+00:00, run_after=2024-11-26 00:40:00+00:00
+[2024-11-26T00:41:02.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.179 seconds
+[2024-11-26T00:41:32.953+0000] {processor.py:161} INFO - Started process (PID=31809) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:41:32.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:41:32.969+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:41:32.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:41:33.036+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:41:33.129+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:41:33.128+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:41:33.192+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:41:33.192+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:30:00+00:00, run_after=2024-11-26 00:40:00+00:00
+[2024-11-26T00:41:33.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.299 seconds
+[2024-11-26T00:51:00.213+0000] {processor.py:161} INFO - Started process (PID=31872) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:51:00.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:51:00.248+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:51:00.241+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:51:00.360+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:51:00.437+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:51:00.437+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:51:00.502+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:51:00.502+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:40:00+00:00, run_after=2024-11-26 00:50:00+00:00
+[2024-11-26T00:51:00.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.381 seconds
+[2024-11-26T00:55:40.229+0000] {processor.py:161} INFO - Started process (PID=31934) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:55:40.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T00:55:40.278+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:55:40.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:55:40.568+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T00:55:40.755+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:55:40.755+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T00:55:40.901+0000] {logging_mixin.py:188} INFO - [2024-11-26T00:55:40.900+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 00:40:00+00:00, run_after=2024-11-26 00:50:00+00:00
+[2024-11-26T00:55:40.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.889 seconds
+[2024-11-26T01:39:04.695+0000] {processor.py:161} INFO - Started process (PID=31997) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:39:04.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:39:04.747+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:39:04.744+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:39:04.862+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:39:04.930+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:39:04.930+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:39:04.993+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:39:04.993+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:20:00+00:00, run_after=2024-11-26 01:30:00+00:00
+[2024-11-26T01:39:05.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.876 seconds
+[2024-11-26T01:42:24.953+0000] {processor.py:161} INFO - Started process (PID=32059) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:42:25.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:42:25.150+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:42:25.137+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:42:25.308+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:42:25.442+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:42:25.442+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:42:25.509+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:42:25.508+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:42:25.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.685 seconds
+[2024-11-26T01:43:18.366+0000] {processor.py:161} INFO - Started process (PID=32127) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:43:18.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:43:18.372+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:43:18.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:43:18.396+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:43:18.421+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:43:18.420+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:43:18.447+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:43:18.447+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:43:18.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.099 seconds
+[2024-11-26T01:43:48.542+0000] {processor.py:161} INFO - Started process (PID=32190) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:43:48.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:43:48.546+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:43:48.546+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:43:48.563+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:43:48.585+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:43:48.585+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:43:48.604+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:43:48.603+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:43:48.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.079 seconds
+[2024-11-26T01:44:18.692+0000] {processor.py:161} INFO - Started process (PID=32246) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:44:18.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:44:18.696+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:44:18.696+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:44:18.720+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:44:18.744+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:44:18.744+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:44:18.763+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:44:18.763+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:44:18.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.096 seconds
+[2024-11-26T01:44:48.875+0000] {processor.py:161} INFO - Started process (PID=32308) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:44:48.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:44:48.878+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:44:48.878+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:44:48.892+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:44:48.918+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:44:48.917+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:44:48.943+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:44:48.943+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:44:48.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.098 seconds
+[2024-11-26T01:45:19.345+0000] {processor.py:161} INFO - Started process (PID=32370) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:45:19.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:45:19.350+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:45:19.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:45:19.372+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:45:19.394+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:45:19.394+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:45:19.416+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:45:19.415+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:45:19.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.100 seconds
+[2024-11-26T01:45:49.701+0000] {processor.py:161} INFO - Started process (PID=32434) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:45:49.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:45:49.715+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:45:49.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:45:49.785+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:45:49.885+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:45:49.885+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:45:49.941+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:45:49.941+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:45:50.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.351 seconds
+[2024-11-26T01:46:20.655+0000] {processor.py:161} INFO - Started process (PID=32497) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:46:20.657+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:46:20.659+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:46:20.659+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:46:20.677+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:46:20.696+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:46:20.696+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:46:20.714+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:46:20.714+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:46:20.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.077 seconds
+[2024-11-26T01:46:51.619+0000] {processor.py:161} INFO - Started process (PID=32560) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:46:51.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:46:51.627+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:46:51.627+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:46:51.649+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:46:51.675+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:46:51.675+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:46:51.696+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:46:51.696+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:46:51.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.095 seconds
+[2024-11-26T01:47:22.042+0000] {processor.py:161} INFO - Started process (PID=32623) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:47:22.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:47:22.049+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:47:22.049+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:47:22.074+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:47:22.099+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:47:22.099+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:47:22.127+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:47:22.127+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:47:22.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.110 seconds
+[2024-11-26T01:47:52.460+0000] {processor.py:161} INFO - Started process (PID=32684) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:47:52.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:47:52.470+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:47:52.469+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:47:52.528+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:47:52.573+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:47:52.573+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:47:52.611+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:47:52.611+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:47:52.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.189 seconds
+[2024-11-26T01:48:23.588+0000] {processor.py:161} INFO - Started process (PID=32747) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:48:23.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:48:23.595+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:48:23.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:48:23.643+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:48:23.698+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:48:23.698+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:48:23.742+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:48:23.742+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:48:23.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.183 seconds
+[2024-11-26T01:48:54.631+0000] {processor.py:161} INFO - Started process (PID=32810) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:48:54.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:48:54.641+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:48:54.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:48:54.685+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:48:54.733+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:48:54.733+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:48:54.769+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:48:54.769+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:48:54.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.167 seconds
+[2024-11-26T01:49:24.905+0000] {processor.py:161} INFO - Started process (PID=32873) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:49:24.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:49:24.911+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:49:24.910+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:49:24.943+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:49:24.975+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:49:24.974+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:49:25.004+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:49:25.004+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:49:25.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.122 seconds
+[2024-11-26T01:49:55.788+0000] {processor.py:161} INFO - Started process (PID=32936) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:49:55.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:49:55.797+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:49:55.796+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:49:55.841+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:49:55.895+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:49:55.894+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:49:55.927+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:49:55.926+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:30:00+00:00, run_after=2024-11-26 01:40:00+00:00
+[2024-11-26T01:49:55.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.166 seconds
+[2024-11-26T01:50:26.589+0000] {processor.py:161} INFO - Started process (PID=32999) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:50:26.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:50:26.597+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:50:26.596+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:50:26.640+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:50:26.683+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:50:26.683+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:50:26.709+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:50:26.708+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:50:26.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.155 seconds
+[2024-11-26T01:53:30.335+0000] {processor.py:161} INFO - Started process (PID=33060) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:53:30.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:53:30.386+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:53:30.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:53:30.792+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:53:31.022+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:53:31.021+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:53:31.094+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:53:31.093+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:53:31.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.879 seconds
+[2024-11-26T01:54:01.959+0000] {processor.py:161} INFO - Started process (PID=33125) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:54:01.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:54:01.966+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:54:01.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:54:02.000+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:54:02.034+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:54:02.033+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:54:02.061+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:54:02.060+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:54:02.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.134 seconds
+[2024-11-26T01:54:32.323+0000] {processor.py:161} INFO - Started process (PID=33187) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:54:32.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:54:32.329+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:54:32.328+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:54:32.355+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:54:32.379+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:54:32.379+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:54:32.405+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:54:32.405+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:54:32.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.110 seconds
+[2024-11-26T01:55:02.922+0000] {processor.py:161} INFO - Started process (PID=33250) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:55:02.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:55:02.933+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:55:02.933+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:55:02.983+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:55:03.042+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:55:03.042+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:55:03.101+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:55:03.101+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:55:03.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.235 seconds
+[2024-11-26T01:55:33.547+0000] {processor.py:161} INFO - Started process (PID=33312) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:55:33.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:55:33.556+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:55:33.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:55:33.623+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:55:33.664+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:55:33.664+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:55:34.208+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:55:34.208+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:55:34.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.711 seconds
+[2024-11-26T01:56:04.394+0000] {processor.py:161} INFO - Started process (PID=33376) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:56:04.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:56:04.402+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:56:04.402+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:56:04.441+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:56:04.487+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:56:04.486+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:56:04.855+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:56:04.855+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:56:04.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.490 seconds
+[2024-11-26T01:56:35.862+0000] {processor.py:161} INFO - Started process (PID=33439) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:56:35.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:56:35.871+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:56:35.871+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:56:35.909+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:56:35.948+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:56:35.948+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:56:36.272+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:56:36.271+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:56:36.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.441 seconds
+[2024-11-26T01:57:07.305+0000] {processor.py:161} INFO - Started process (PID=33502) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:57:07.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:57:07.316+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:57:07.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:57:07.356+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:57:07.400+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:57:07.400+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:57:07.739+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:57:07.739+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:57:07.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.466 seconds
+[2024-11-26T01:57:38.504+0000] {processor.py:161} INFO - Started process (PID=33565) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:57:38.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:57:38.511+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:57:38.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:57:38.541+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:57:38.577+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:57:38.577+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:57:38.954+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:57:38.954+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:57:38.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.483 seconds
+[2024-11-26T01:58:09.123+0000] {processor.py:161} INFO - Started process (PID=33629) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:58:09.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:58:09.135+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:58:09.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:58:09.173+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:58:09.227+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:58:09.227+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:58:09.261+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:58:09.261+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:58:09.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.171 seconds
+[2024-11-26T01:58:40.091+0000] {processor.py:161} INFO - Started process (PID=33692) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:58:40.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:58:40.101+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:58:40.097+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:58:40.145+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:58:40.195+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:58:40.195+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:58:40.235+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:58:40.235+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:58:40.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.184 seconds
+[2024-11-26T01:59:11.343+0000] {processor.py:161} INFO - Started process (PID=33754) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:59:11.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:59:11.349+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:59:11.348+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:59:11.377+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:59:11.413+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:59:11.413+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:59:11.452+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:59:11.452+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:59:11.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.148 seconds
+[2024-11-26T01:59:42.369+0000] {processor.py:161} INFO - Started process (PID=33817) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:59:42.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T01:59:42.378+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:59:42.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:59:42.409+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T01:59:42.462+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:59:42.462+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T01:59:42.496+0000] {logging_mixin.py:188} INFO - [2024-11-26T01:59:42.496+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:40:00+00:00, run_after=2024-11-26 01:50:00+00:00
+[2024-11-26T01:59:42.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.158 seconds
+[2024-11-26T02:00:13.054+0000] {processor.py:161} INFO - Started process (PID=33881) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:00:13.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T02:00:13.065+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:00:13.064+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:00:13.104+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:00:13.150+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:00:13.150+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T02:00:13.198+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:00:13.197+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:50:00+00:00, run_after=2024-11-26 02:00:00+00:00
+[2024-11-26T02:00:13.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.185 seconds
+[2024-11-26T02:00:43.925+0000] {processor.py:161} INFO - Started process (PID=33944) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:00:43.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T02:00:43.931+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:00:43.930+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:00:43.969+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:00:44.017+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:00:44.017+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T02:00:44.058+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:00:44.058+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:50:00+00:00, run_after=2024-11-26 02:00:00+00:00
+[2024-11-26T02:00:44.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.175 seconds
+[2024-11-26T02:01:14.946+0000] {processor.py:161} INFO - Started process (PID=34008) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:01:14.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T02:01:14.956+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:01:14.955+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:01:14.999+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:01:15.050+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:01:15.050+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T02:01:15.092+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:01:15.092+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:50:00+00:00, run_after=2024-11-26 02:00:00+00:00
+[2024-11-26T02:01:15.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.182 seconds
+[2024-11-26T02:01:46.226+0000] {processor.py:161} INFO - Started process (PID=34070) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:01:46.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T02:01:46.236+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:01:46.236+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:01:46.279+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:01:46.331+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:01:46.331+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T02:01:46.371+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:01:46.371+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:50:00+00:00, run_after=2024-11-26 02:00:00+00:00
+[2024-11-26T02:01:46.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.193 seconds
+[2024-11-26T02:02:17.258+0000] {processor.py:161} INFO - Started process (PID=34136) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:02:17.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T02:02:17.264+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:02:17.264+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:02:17.287+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:02:17.323+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:02:17.323+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T02:02:17.355+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:02:17.355+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:50:00+00:00, run_after=2024-11-26 02:00:00+00:00
+[2024-11-26T02:02:17.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.136 seconds
+[2024-11-26T02:02:48.368+0000] {processor.py:161} INFO - Started process (PID=34199) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:02:48.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T02:02:48.383+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:02:48.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:02:48.429+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:02:48.476+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:02:48.476+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T02:02:48.510+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:02:48.510+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 01:50:00+00:00, run_after=2024-11-26 02:00:00+00:00
+[2024-11-26T02:02:48.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.185 seconds
+[2024-11-26T02:17:53.302+0000] {processor.py:161} INFO - Started process (PID=34245) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:17:53.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T02:17:53.306+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:17:53.305+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:17:53.335+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:17:53.351+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:17:53.350+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T02:17:53.364+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:17:53.364+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:00:00+00:00, run_after=2024-11-26 02:10:00+00:00
+[2024-11-26T02:17:53.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.082 seconds
+[2024-11-26T02:51:39.591+0000] {processor.py:161} INFO - Started process (PID=34303) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:51:39.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T02:51:39.609+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:51:39.608+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:51:39.681+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:51:39.849+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:51:39.848+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T02:51:39.962+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:51:39.962+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:40:00+00:00, run_after=2024-11-26 02:50:00+00:00
+[2024-11-26T02:51:40.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.467 seconds
+[2024-11-26T02:59:14.910+0000] {processor.py:161} INFO - Started process (PID=34366) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:59:14.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T02:59:14.915+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:59:14.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:59:14.956+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:59:14.997+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:59:14.997+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T02:59:15.032+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:59:15.031+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:40:00+00:00, run_after=2024-11-26 02:50:00+00:00
+[2024-11-26T02:59:15.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.150 seconds
+[2024-11-26T02:59:45.555+0000] {processor.py:161} INFO - Started process (PID=34429) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:59:45.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T02:59:45.564+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:59:45.563+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:59:45.603+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T02:59:45.642+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:59:45.641+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T02:59:45.681+0000] {logging_mixin.py:188} INFO - [2024-11-26T02:59:45.681+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:40:00+00:00, run_after=2024-11-26 02:50:00+00:00
+[2024-11-26T02:59:45.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.158 seconds
+[2024-11-26T03:00:16.693+0000] {processor.py:161} INFO - Started process (PID=34493) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:00:16.696+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:00:16.700+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:00:16.699+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:00:16.731+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:00:16.751+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:00:16.751+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:00:16.779+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:00:16.779+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:00:16.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.114 seconds
+[2024-11-26T03:00:47.299+0000] {processor.py:161} INFO - Started process (PID=34557) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:00:47.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:00:47.305+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:00:47.304+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:00:47.332+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:00:47.355+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:00:47.355+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:00:47.381+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:00:47.381+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:00:47.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.112 seconds
+[2024-11-26T03:01:17.533+0000] {processor.py:161} INFO - Started process (PID=34619) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:01:17.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:01:17.547+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:01:17.546+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:01:17.586+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:01:17.628+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:01:17.628+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:01:17.661+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:01:17.661+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:01:17.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.173 seconds
+[2024-11-26T03:01:48.609+0000] {processor.py:161} INFO - Started process (PID=34682) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:01:48.612+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:01:48.617+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:01:48.616+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:01:48.657+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:01:48.705+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:01:48.705+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:01:48.740+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:01:48.740+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:01:48.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.168 seconds
+[2024-11-26T03:02:19.119+0000] {processor.py:161} INFO - Started process (PID=34746) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:02:19.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:02:19.126+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:02:19.125+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:02:19.164+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:02:19.208+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:02:19.207+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:02:19.249+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:02:19.249+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:02:19.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.174 seconds
+[2024-11-26T03:02:50.327+0000] {processor.py:161} INFO - Started process (PID=34810) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:02:50.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:02:50.334+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:02:50.333+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:02:50.374+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:02:50.423+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:02:50.422+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:02:50.478+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:02:50.478+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:02:50.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.187 seconds
+[2024-11-26T03:03:21.174+0000] {processor.py:161} INFO - Started process (PID=34873) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:03:21.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:03:21.183+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:03:21.182+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:03:21.233+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:03:21.274+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:03:21.274+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:03:21.312+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:03:21.311+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:03:21.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.177 seconds
+[2024-11-26T03:03:51.824+0000] {processor.py:161} INFO - Started process (PID=34935) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:03:51.828+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:03:51.834+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:03:51.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:03:51.878+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:03:51.926+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:03:51.926+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:03:51.960+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:03:51.959+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:03:51.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.188 seconds
+[2024-11-26T03:04:22.152+0000] {processor.py:161} INFO - Started process (PID=34998) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:04:22.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:04:22.160+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:04:22.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:04:22.197+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:04:22.236+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:04:22.236+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:04:22.270+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:04:22.269+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:04:22.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.154 seconds
+[2024-11-26T03:04:53.135+0000] {processor.py:161} INFO - Started process (PID=35063) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:04:53.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:04:53.145+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:04:53.144+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:04:53.180+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:04:53.219+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:04:53.219+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:04:53.252+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:04:53.251+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:04:53.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.150 seconds
+[2024-11-26T03:05:23.662+0000] {processor.py:161} INFO - Started process (PID=35126) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:05:23.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:05:23.669+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:05:23.668+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:05:23.707+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:05:23.752+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:05:23.752+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:05:23.793+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:05:23.793+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:05:23.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.171 seconds
+[2024-11-26T03:05:54.608+0000] {processor.py:161} INFO - Started process (PID=35189) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:05:54.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:05:54.618+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:05:54.617+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:05:54.662+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:05:54.705+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:05:54.704+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:05:54.738+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:05:54.738+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:05:54.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.174 seconds
+[2024-11-26T03:06:25.325+0000] {processor.py:161} INFO - Started process (PID=35252) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:06:25.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:06:25.330+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:06:25.330+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:06:25.367+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:06:25.405+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:06:25.405+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:06:25.455+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:06:25.455+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:06:25.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.172 seconds
+[2024-11-26T03:06:55.717+0000] {processor.py:161} INFO - Started process (PID=35315) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:06:55.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:06:55.730+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:06:55.725+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:06:55.774+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:06:55.818+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:06:55.818+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:06:55.852+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:06:55.851+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:06:55.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.168 seconds
+[2024-11-26T03:07:26.836+0000] {processor.py:161} INFO - Started process (PID=35378) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:07:26.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:07:26.856+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:07:26.854+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:07:26.909+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:07:26.963+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:07:26.963+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:07:27.001+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:07:27.001+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 02:50:00+00:00, run_after=2024-11-26 03:00:00+00:00
+[2024-11-26T03:07:27.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.216 seconds
+[2024-11-26T03:25:51.188+0000] {processor.py:161} INFO - Started process (PID=35434) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:25:51.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:25:51.209+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:25:51.207+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:25:51.264+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:25:51.308+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:25:51.308+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:25:51.354+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:25:51.354+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 03:10:00+00:00, run_after=2024-11-26 03:20:00+00:00
+[2024-11-26T03:25:51.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.221 seconds
+[2024-11-26T03:26:35.662+0000] {processor.py:161} INFO - Started process (PID=35498) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:26:35.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:26:35.691+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:26:35.688+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:26:35.791+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:26:35.864+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:26:35.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:26:35.919+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:26:35.919+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 03:10:00+00:00, run_after=2024-11-26 03:20:00+00:00
+[2024-11-26T03:26:35.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.342 seconds
+[2024-11-26T03:27:06.792+0000] {processor.py:161} INFO - Started process (PID=35561) to work on /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:27:06.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stockprices_v2_decorator(3).py for tasks to queue
+[2024-11-26T03:27:06.807+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:27:06.806+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:27:06.866+0000] {processor.py:840} INFO - DAG(s) 'stockprices_v2_decorator' retrieved from /opt/airflow/dags/stockprices_v2_decorator(3).py
+[2024-11-26T03:27:06.916+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:27:06.916+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T03:27:06.965+0000] {logging_mixin.py:188} INFO - [2024-11-26T03:27:06.965+0000] {dag.py:3954} INFO - Setting next_dagrun for stockprices_v2_decorator to 2024-11-26 03:10:00+00:00, run_after=2024-11-26 03:20:00+00:00
+[2024-11-26T03:27:06.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stockprices_v2_decorator(3).py took 0.238 seconds

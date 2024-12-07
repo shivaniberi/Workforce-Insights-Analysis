@@ -1,0 +1,21 @@
+[2024-12-05T23:15:25.599+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-05T23:15:25.651+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: job_listings_etl_v2.load_csv manual__2024-12-05T23:10:13.078018+00:00 [queued]>
+[2024-12-05T23:15:25.676+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: job_listings_etl_v2.load_csv manual__2024-12-05T23:10:13.078018+00:00 [queued]>
+[2024-12-05T23:15:25.682+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2024-12-05T23:15:25.707+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): load_csv> on 2024-12-05 23:10:13.078018+00:00
+[2024-12-05T23:15:25.752+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=847) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-05T23:15:25.764+0000] {standard_task_runner.py:63} INFO - Started process 849 to run task
+[2024-12-05T23:15:25.766+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'job_listings_etl_v2', 'load_csv', 'manual__2024-12-05T23:10:13.078018+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/ETL_FINAL_PROJECT (1).py', '--cfg-path', '/tmp/tmp_sykylfh']
+[2024-12-05T23:15:25.771+0000] {standard_task_runner.py:91} INFO - Job 33: Subtask load_csv
+[2024-12-05T23:15:25.972+0000] {task_command.py:426} INFO - Running <TaskInstance: job_listings_etl_v2.load_csv manual__2024-12-05T23:10:13.078018+00:00 [running]> on host 1ed1f547130e
+[2024-12-05T23:15:26.094+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='job_listings_etl_v2' AIRFLOW_CTX_TASK_ID='load_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-12-05T23:10:13.078018+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-05T23:10:13.078018+00:00'
+[2024-12-05T23:15:26.101+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-05T23:15:26.103+0000] {ETL_FINAL_PROJECT (1).py:87} WARNING - No records received in load_csv. Skipping load.
+[2024-12-05T23:15:26.104+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-12-05T23:15:26.105+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-05T23:15:26.114+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=job_listings_etl_v2, task_id=load_csv, run_id=manual__2024-12-05T23:10:13.078018+00:00, execution_date=20241205T231013, start_date=20241205T231525, end_date=20241205T231526
+[2024-12-05T23:15:26.151+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-12-05T23:15:26.170+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-05T23:15:26.174+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
